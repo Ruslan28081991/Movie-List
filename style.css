@@ -99,3 +99,17 @@ body {
     align-items: center;
     color: white;
 }
+
+.movie__label-close {
+    cursor: pointer;
+}
+
+.movie__label.selected {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.selected {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
